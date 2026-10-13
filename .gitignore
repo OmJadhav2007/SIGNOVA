@@ -1,0 +1,59 @@
+# ==========================================
+# Byte-compiled / optimized / DLL files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# IDEs and Editors
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ==========================================
+# Large Datasets & Media
+# (GitHub rejects files exceeding 100MB)
+# ==========================================
+*Indian Sign Language Gesture Landmarks*.csv
+data/*Indian Sign Language Gesture Landmarks*.csv
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ==========================================
+# Ensure project assets are tracked
+# ==========================================
+!data/isl_landmarks.csv
+!data/metadata.csv
+!models/isl_model.pkl
+
